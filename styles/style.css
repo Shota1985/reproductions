@@ -1,7 +1,7 @@
-@import url(/styles/config.css);
-@import url(/styles/header.css);
-@import url(/styles/hero.css);
-@import url(grid.css);
-@import url(info.css);
-@import url(weare.css);
-@import url(footer.css);
+@import "./styles/config.css";
+@import "./styles/header.css";
+@import "./styles/hero.css";
+@import "./grid.css";
+@import "./info.css";
+@import "./weare.css";
+@import "./footer.css";
