@@ -1,6 +1,6 @@
-@import "./styles/config.css";
-@import "./styles/header.css";
-@import "./styles/hero.css";
+@import "./config.css";
+@import "./header.css";
+@import "./hero.css";
 @import "./grid.css";
 @import "./info.css";
 @import "./weare.css";
