@@ -68,7 +68,8 @@ header {
     gap: 60px;
   }
   .click {font-size: 18px;padding: 0 10px 0 10px;}}
-    
-    
-  
-
+  @media (max-width:320px){ .header__list>:last-child{}
+.header__burger{display: block;
+width: 20px;
+height: 2px;
+background-color: black;}}
