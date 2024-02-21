@@ -77,7 +77,7 @@ li {
 }
 .foot__head{padding: 0;}
 }
-@media (max-width: 796px){.footer__conteiner {
+@media (max-width: 796px)and (min-width: 504px){.footer__conteiner {
   max-width: 510px;
   flex-wrap: wrap;justify-content: center;
 }
@@ -92,3 +92,4 @@ li {
 }
 .foot__head{padding: 0;}
 }
+@media(max-width: 504px) {}

@@ -53,7 +53,7 @@ h1 {
   .hero {justify-content: center;
   }
 }
-@media (max-width: 796px) {
+@media (max-width: 796px) and (min-width: 504px){
   .hero {padding-top: 123px;  max-width: 510px; }
    .hero__pigeon {width: 195px;height: 239px;}
     h1 {line-height: 36px; font-size: 36px;
@@ -68,3 +68,28 @@ h1 {
     
   .essence__description{padding: 10px 0 10px 0;}
 }
+@media (max-width: 504px){
+  .hero {padding-top: 130px;}
+  .hero__pigeon {
+  width: 0;
+  height: 0;
+}
+.hero__essence {
+  height: 233px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 30px;
+}
+.essence__inkhouse {
+  font-size: 30px;
+}
+.essence__text {
+  font-size: 14px;
+}
+.essence__products {
+  height: 50px;
+  width: 154px;
+}}

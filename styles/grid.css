@@ -121,7 +121,7 @@
   .basket {width: 290px;}
   .reproduction__name {font-size: 30px;}
 }
-@media (max-width: 796px) {
+@media (max-width: 796px) and (min-width: 504px){
   .reproductions__conteiner {
     grid-template-columns: repeat(2, 240px);
     grid-template-rows: repeat(3, 514px);
@@ -142,3 +142,17 @@
   .reproduction__guide { width: 510px;
 }
 }
+@media (max-width: 504px) {.reproductions__conteiner {
+    grid-template-columns: repeat(1, 290px);
+    grid-template-rows: repeat(6, 514px);
+  }
+.picture__directly {height: 250px;width: 250px;}
+  .picture {height: 250px; }
+  .reproduction__name {font-size: 16px; line-height: 19px;}
+  .reproduction__wrapper {max-width: 290px;}
+  .author {font-size: 16px;}
+  .name {font-size: 24px; line-height: 28px}
+  .materials {font-size: 16px;}
+  .price {font-size: 20px;}
+  .basket {width: 250px;height: 50px;}
+.reproduction__guide{max-width: 290px;}}

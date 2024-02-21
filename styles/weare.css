@@ -53,7 +53,7 @@
   .team__title { font-size: 30px;line-height: 33px;}
   .team__description { width: 100%;height: 281px; }
 }
-@media (max-width: 796px)  {
+@media (max-width: 796px)  and (min-width: 504px){
   .weare { max-width: 510px;margin-top: 50px;display: flex; flex-direction: column;align-items: start;}
   .about__us__team {padding-top: 0; }
   .brushes__frame { width: 370px;height: 375px;padding-bottom: 20px;}
