@@ -44,7 +44,8 @@ li {
   width: 132px;
   padding-bottom: 50px;
 }
-.contacts__location {font-style: normal;
+.contacts__location {
+  font-style: normal;
   padding-top: 5px;
 }
 .contacts__number {
@@ -102,8 +103,24 @@ li {
   .foot__head {
     padding: 0;
   }
+  .company__trademark {
+    display: flex;
+    gap: 2px;
+  }
+  hr {
+    width: 510px;
+    height: 2px;
+  }
+  .footer__sotialmedia {
+    width: auto;
+  }
+  .company__trademark {
+    display: flex;
+    gap: 2px;
+  }
 }
-@media (max-width: 504px) and (min-width:10px){
+
+@media (max-width: 504px) and (min-width: 10px) {
   footer {
     height: 415px;
   }
@@ -141,14 +158,24 @@ li {
   .nav__click,
   .contacts__location {
     font-size: 16px;
-    line-height: 19px; 
+    line-height: 19px;
   }
   .footer__sotialmedia {
     width: 176px;
     margin-top: 20px;
     padding: 0;
   }
-  .replica__france{padding-right: 40px;}
-  .replica__germany{padding-right: 32px;}
-  .replica__england{padding-right: 55px;}
+  .replica__france {
+    padding-right: 40px;
+  }
+  .replica__germany {
+    padding-right: 32px;
+  }
+  .replica__england {
+    padding-right: 55px;
+  }
+  .company__trademark {
+    display: flex;
+    gap: 2px;
+  }
 }
