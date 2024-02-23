@@ -68,8 +68,9 @@ h1 {
     
   .essence__description{padding: 10px 0 10px 0;}
 }
-@media (max-width: 504px){
-  .hero {padding-top: 130px;}
+@media (max-width: 504px) and (min-width:10px){
+  .hero {padding-top: 130px;max-width: 290px;
+  gap: 0;}
   .hero__pigeon {
   width: 0;
   height: 0;

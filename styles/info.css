@@ -96,9 +96,12 @@
   }.info__content { width: 510px;height: 100%;
 }
 }
-@media (max-width: 504px){.yellowstar {height: 50px;}
-  .info__title {width: 230px; }
+@media (max-width: 504px) and (min-width:10px){.info{width: 100vw;height: 552px;}
+  .yellowstar {height: 50px;}.info__title{width: auto;padding-top: 20px;}
   .content__title {line-height: 24px;font-size: 24px;}
-  /* .info__description { width: 690px;height: 182px;} */
-  .button__info {width: 210px;height: 60px;}
-  .info__content {max-width: 690px; }}
+  .info__description {width: auto;height: auto; margin: 0;}
+  .description__text {padding-top: 10px;
+  font-size: 16px;
+}.infobutton__wrapper{padding-top: 10px;}
+  .button__info {max-width: 290px; height: 60px; margin: 0;}
+  .info__content {max-width: 290px; }}
