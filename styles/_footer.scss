@@ -1,14 +1,24 @@
 footer {
-  background: #e1ede6;
+  background: $border__color;
   margin-top: 60px;
   width: 100%;
 }
-.footer__conteiner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1110px;
+.footer {
+  &__contacts {
+    height: 160px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+  }
 }
+
 li {
   list-style: none;
   font-size: 18px;
@@ -56,13 +66,7 @@ li {
   font-size: 20px;
   line-height: 23px;
 }
-.footer__contacts {
-  height: 160px;
-  width: 175px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+
 @media (max-width: 1300px) and (min-width: 797px) {
   .footer__conteiner {
     max-width: 690px;
@@ -77,6 +81,7 @@ li {
     padding: 23px 0 30px 0;
   }
   .foot__nav {
+    display: flex;
     justify-content: space-between;
   }
   .foot__head {
@@ -98,6 +103,7 @@ li {
     padding: 23px 0 30px 0;
   }
   .foot__nav {
+    display: flex;
     justify-content: space-between;
     width: 100%;
   }
@@ -174,16 +180,19 @@ li {
     margin-left: -15px;
   }
   .replica__france {
-    padding-right: 28px;
+    padding-right: 41px;
   }
   .replica__germany {
-    padding-right: 20px;
+    padding-right: 34px;
   }
   .replica__england {
-    padding-right: 43px;
+    padding-right: 57px;
   }
   .company__trademark {
     display: flex;
     gap: 2px;
+  }
+  .footer__weare {
+    margin-right: 16px;
   }
 }
