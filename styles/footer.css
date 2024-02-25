@@ -41,8 +41,9 @@ li {
   line-height: 14px;
 }
 .footer__sotialmedia {
-  width: 132px;
+  width: 173px;
   padding-bottom: 50px;
+  padding-right: 40px;
 }
 .contacts__location {
   font-style: normal;
@@ -165,14 +166,21 @@ li {
     margin-top: 20px;
     padding: 0;
   }
+
+  .head {
+    margin-left: -5px;
+  }
+  .list__reproduction {
+    margin-left: -15px;
+  }
   .replica__france {
-    padding-right: 40px;
+    padding-right: 28px;
   }
   .replica__germany {
-    padding-right: 32px;
+    padding-right: 20px;
   }
   .replica__england {
-    padding-right: 55px;
+    padding-right: 43px;
   }
   .company__trademark {
     display: flex;
