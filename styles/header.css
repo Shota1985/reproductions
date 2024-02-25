@@ -130,7 +130,7 @@ header {
     display: flex;height: 100px;
   }
   #burger:checked ~ .list__wrapper {
-    height: 400px; background-color: aquamarine;
+    height: 400px; background-color: #e1ede6;
   }
   #burger:checked~.first{display: none;}
   #burger:checked~.fourth{display: none;}
